@@ -64,7 +64,7 @@ function imprimirFraseNova() {
    // Exercício - 3
    
    function adicao(args, args2) {
-       console.log(args + args2)
+       console.log(args + args2) 
    }
    
    function subtracao(args, args2) {
