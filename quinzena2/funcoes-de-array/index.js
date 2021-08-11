@@ -75,3 +75,4 @@ const nomeProdutos = produtos
 .filter(item => item.nome === "Ype")
 .map(item => console.log(nomeProdutos))
 
+
