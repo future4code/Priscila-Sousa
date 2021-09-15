@@ -20,7 +20,7 @@ header {
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 footer {
@@ -66,3 +66,4 @@ body {
     grid-template-columns: 60px 4fr;
 }
 
+/* não vou fazer hoje */

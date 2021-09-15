@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import ImagemButton from './components/ImagemButton/ImagemButton';
+import CardPequeno from './components/CardPequeno/CardPequeno';
 
 function App() {
   return (
@@ -9,14 +10,24 @@ function App() {
       <div className="page-section-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem="https://uploads-ssl.webflow.com/5d640f4558306be99cf47a0e/5dd57846babb597b77c6bb1d_PerfilFuture4_cor.png" 
+          imagem="https://pbs.twimg.com/profile_images/1405349099541520386/uPrYiYZY_400x400.jpg" 
           nome="Priscila" 
-          descricao="Oi, eu sou o Astrodev. Sou o chefe dos alunos da Labenu. Adoro pedir e-mails na sexta-feira e esperar os alunos responderem só para responder com uma bronca e dar mais trabalho para eles."
+          descricao="Oi, eu sou a Priscila. Sou aluna da Labenu, trabalho atualmente com vendas numa empresa gráfica. Já estive em outras areas como telemarketing; auxiliar de limpeza e ASB."
         />
         
         <ImagemButton 
           imagem="https://image.flaticon.com/icons/png/512/117/117472.png" 
           texto="Ver mais"
+        />
+
+        <CardPequeno 
+          label="E-mail: "
+          texto="priscilaoliveirasousa1@gmail.com"
+        />
+
+        <CardPequeno 
+          label="Endereço: "
+          texto="Rua dr. Candido Mojola, 214 - Jundiaí/SP"
         />
       </div>
 
@@ -24,8 +35,8 @@ function App() {
         <h2>Experiências profissionais</h2>
         <CardGrande 
           imagem="https://s3.amazonaws.com/future4.com.br/static/headf4-c492117ca2373dc85ca81bf715b3dc2a.png" 
-          nome="Labenu" 
-          descricao="Formando desenvolvedores para o mercado de trabalho!" 
+          nome="Morethes" 
+          descricao="Experiencia em CorelDRAW x18, vendas e atendimento ao cliente" 
         />
         
         <CardGrande 
